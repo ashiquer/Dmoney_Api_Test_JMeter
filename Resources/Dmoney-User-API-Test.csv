@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1664806300010,97,Login to User,200,OK,Dmoney User API Test 1-1,text,true,,533,314,1,1,http://dmoney.professionaltrainingbd.com/user/login,91,0,52
+1664806300192,5208,Get User List,200,OK,Dmoney User API Test 1-1,text,true,,1735479,411,1,1,http://dmoney.professionaltrainingbd.com/user/list,4713,0,0
+1664806305449,27,Create a user,201,Created,Dmoney User API Test 1-1,text,true,,582,604,1,1,http://dmoney.professionaltrainingbd.com/user/create,27,0,0
+1664806305478,20,Search the newly created user by phone number,200,OK,Dmoney User API Test 1-1,text,true,,545,438,1,1,http://dmoney.professionaltrainingbd.com/user/search?phone_number=01521633049,20,0,0
+1664806305499,8,Search the newly created user by email,200,OK,Dmoney User API Test 1-1,text,true,,533,437,1,1,http://dmoney.professionaltrainingbd.com/user/search?email=user6221@test.com,8,0,0
+1664806305508,13,Update the user phone number,200,OK,Dmoney User API Test 1-1,text,true,,381,478,1,1,http://dmoney.professionaltrainingbd.com/user/update/9637,13,0,0
+1664806305522,9, Search the newly created user by id,200,OK,Dmoney User API Test 1-1,text,true,,533,421,1,1,http://dmoney.professionaltrainingbd.com/user/search?id=9637,9,0,0
+1664806305532,16,Delete the user,200,OK,Dmoney User API Test 1-1,text,true,,343,440,1,1,http://dmoney.professionaltrainingbd.com/user/delete/9637,16,0,0
